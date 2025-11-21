@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # La ligne cache a été supprimée pour éviter l'erreur
 
       - name: Install dependencies
         run: npm install
